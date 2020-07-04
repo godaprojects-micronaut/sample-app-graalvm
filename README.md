@@ -1,4 +1,11 @@
 # Simple Micronaut app with GraalVM
+
+Must have created it using the following command:
+```
+mn create-app sample-app-graalvm --build maven --features graalvm
+```
+
+
 #### Steps to execute
 1. create a maven package
 ```
@@ -22,4 +29,3 @@ native-image --no-server -cp target/sample-app-graalvm-0.1.jar
 ## Feature http-client documentation
 
 - [Micronaut Micronaut HTTP Client documentation](https://docs.micronaut.io/latest/guide/index.html#httpClient)
-
